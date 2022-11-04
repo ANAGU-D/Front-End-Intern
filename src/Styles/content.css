@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:  #101828;
+}
+.image{
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+}
+.share img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    overflow: hidden;
+    border:  gray dotted thin; 
+    position: absolute;
+    left: 65%;
+}
+.share img:hover{
+    background: gray;
+    opacity: inherit;
+    
+}
+.share2 img{
+    display: none;
+}
+
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #101828;
+    align-items: center;
+    margin-top: 10%;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right:auto ;
+}
+.Links{
+    margin-top: 3%;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 80vw;
+    padding: 20px 30px;
+    gap: 5px;
+    border: solid white;
+    border-radius: 8px;
+    margin-top: 2%;
+    background-color: #EAECF0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+#slack{
+    display:none;
+}
+
+.social{
+    display: flex;
+    gap: 20px;
+    margin-top: 6%;
+}
+@media screen and (max-width:600px) {
+    .share img{
+        visibility: hidden;
+    }
+    .share2 img{
+    display: block;
+    position: absolute;
+    left: 80%;
+    border: dotted thin gray;
+    padding: 10px;
+    border-radius: 50%;
+
+    }
+
+}
