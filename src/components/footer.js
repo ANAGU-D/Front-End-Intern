@@ -1,7 +1,7 @@
 import React from "react";
 import Zuri from "../img/zuri.png"
 import ingress from "../img/ingressive.png";
-import '../Styles/footer.css';
+import '../styles/footer.css';
 
 const Footer = ()=>{
     return(
