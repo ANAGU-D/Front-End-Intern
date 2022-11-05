@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/content.css'
+import '../styles/content.css'
 import Profile from '../img/ProfilePic.jpg';
 import slack from "../img/slack.svg";
 import github from "../img/Social_icon.svg";
@@ -32,7 +32,7 @@ const Content = () =>{
         <a href='/contact' id='contact' className='link'>Contact Me</a>
     </div>
     <div className='social'>
-     <img src={slack} alt="Slack"/></a>
+     <img src={slack} alt="Slack"/>
         <img src={github} alt="Slack"/>
     </div>
     </div>

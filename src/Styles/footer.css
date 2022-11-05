@@ -1,12 +1,13 @@
 .footer{
     display: flex;
     justify-content: space-between;
-    border-top: solid #667085 thin; 
+    border-top: 1px solid #EAECF0;
     margin-top: 5%;
     padding: 3%;
     width:90vw;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10%;
     
 }
 p{
@@ -19,7 +20,7 @@ p{
 }
    
 .footer img{
-    width:150px;
+    width:99.1px;;
     height: 24px;
     
 }
