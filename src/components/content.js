@@ -6,6 +6,7 @@ import github from "../img/Social_icon.svg";
 import share from "../img/Icon-md.png";
 import share2 from '../img/Icon-sm.png';
 
+
 const Content = () =>{
     return(
    <main>
@@ -28,6 +29,7 @@ const Content = () =>{
         <a href='https://books.zuri.team/python-for-beginners?ref_id=<DanielAnagu>'className='link'id='book__python'>Python Books</a>
         <a href='https://background.zuri.team/' id='pitch' className='link'>Background Check for Coders</a>
         <a href='https://books.zuri.team/design-rules' id='book__design' className='link'>Design Books</a>
+        <a href='/contact' id='contact' className='link'>Contact Me</a>
     </div>
     <div className='social'>
         <img src={slack} alt="Slack"/>
