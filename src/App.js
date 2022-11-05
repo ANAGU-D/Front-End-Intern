@@ -1,7 +1,7 @@
 import Content from "./components/content";
 import Footer from "./components/footer";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import ContactMe from "./Pages/Contact Me";
+import ContactMe from "./pages/Contact Me";
 
 
 

@@ -22,6 +22,7 @@ body{
 }
 .content{
     text-align:left;
+    margin-top: -10px
 }
 .content h1{
     letter-spacing: -0.02em;
@@ -36,6 +37,7 @@ body{
     height: 30px;
     font-weight: 400;
     font-size: 20px;
+    margin-bottom: 48px;
 }
 .form{
     width: 100%;
@@ -97,8 +99,9 @@ body{
 
 .check-box{
     display:flex;
-    gap:12px;
+    gap:12px; 
 }
+.check-box p{color: #475467; font-weight: 400;}
 .btn{
     width:97%;
     background: #1570EF;

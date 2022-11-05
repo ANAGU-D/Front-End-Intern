@@ -105,7 +105,10 @@ main{
     left: 80%;
     border: dotted thin gray;
     padding: 10px;
-    border-radius: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 50%;
+    
     }
     html, body{
         margin: 0;
