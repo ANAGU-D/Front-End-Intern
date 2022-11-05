@@ -31,7 +31,7 @@ const ContactMe = ()=>{
                 <div className='check-box'>
                         <input  type="checkbox"/> <p>You agree to providing you data to Daniel Anagu who may contact you.</p>
                 </div>
-                <button className='btn' id='btn__submit'> Send message</button>
+                <button className='btn' id='btn__submit' type='submit'> Send message</button>
             </div>
         </div>
     )
