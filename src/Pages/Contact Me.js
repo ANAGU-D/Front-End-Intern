@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/contact.css'
+import '../styles/contact.css'
 const ContactMe = ()=>{
     return(
         <div className='wrapper'>
