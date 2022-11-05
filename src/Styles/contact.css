@@ -115,6 +115,14 @@ body{
     border-radius: 6px;
 }
 @media screen and (max-width:460px) {
+    html, body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+        
+       
+    }
     .wrapper{margin: 25px auto 0;}
     .content p{font-size:18px; margin-top: 5%; margin-bottom: 20%;}
     .top-form{
@@ -124,4 +132,9 @@ body{
     .top-form .inner-form{
         width: 97%;
     }  
+
+    .check-box input{
+        font-size: 16px;
+        color: #475467;
+    }
 }

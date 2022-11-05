@@ -106,7 +106,12 @@ main{
     border: dotted thin gray;
     padding: 10px;
     border-radius: 100%;
-
+    }
+    html, body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+       
     }
 
 }
