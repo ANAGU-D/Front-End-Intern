@@ -1,7 +1,7 @@
 import Content from "./components/content";
 import Footer from "./components/footer";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import ContactMe from "./pages/Contact Me";
+import contactMe from "./pages/contactme";
 
 
 
@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={ <Content/>}/>
-        <Route path='/contact' element={ <ContactMe/>}/>
+        <Route path='/contact' element={<contactMe/>}/>
       </Routes>
       <Footer/>
     </Router>
