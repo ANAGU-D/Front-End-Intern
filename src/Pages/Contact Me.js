@@ -11,20 +11,20 @@ const ContactMe = ()=>{
             <div className='form'>
                 <div className='top-form'>
                     <div className='inner-form'>
-                        <label>First Name</label>
+                        <label htmlFor='first_name'>First Name</label>
                         <input type='text' placeholder='Enter your first name'  id='first_name'/>
                     </div>
                     <div className='inner-form'>
-                        <label>Last Name</label>
+                        <label htmlFor='last_name'>Last Name</label>
                         <input type='text'placeholder='Enter your last name' id='last_name'/>
                     </div>
                 </div>
                 <div className='middle-form'>
-                        <label>Email</label>
+                        <label htmlFor='email'>Email</label>
                         <input className='inputs'type= "email" placeholder='yourname@email.com' id='email'/>
                 </div>
                 <div className='buttom-form'>
-                <label>Message</label>
+                <label htmlFor='message'>Message</label>
                          <textarea placeholder='Send me a message and I"ll reply you as soon as possible...'  id='message'>
                          </textarea>
                 </div>
