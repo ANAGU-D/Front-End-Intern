@@ -23,7 +23,7 @@ const Content = () =>{
        <h1 id='slack'>Daniel Anagu</h1>
         </div>
         <div className='Links'>
-        <a href='#' id='twitter' className='link'>Twitter Link</a>
+        <a href='https://twitter.com/daniel_anagu?t=lZ0yEX-CgqPR8DJrKxuBuw&s=09' id='twitter' className='link'>Twitter Link</a>
         <a href='https://training.zuri.team/'id='btn__zuri' className='link'>Zuri Team</a>
         <a href='http://books.zuri.team/'className='link' id='books'>Zuri Books</a>
         <a href='https://books.zuri.team/python-for-beginners?ref_id=<DanielAnagu>'className='link'id='book__python'>Python Books</a>
@@ -32,7 +32,7 @@ const Content = () =>{
         <a href='/contact' id='contact' className='link'>Contact Me</a>
     </div>
     <div className='social'>
-        <img src={slack} alt="Slack"/>
+     <img src={slack} alt="Slack"/></a>
         <img src={github} alt="Slack"/>
     </div>
     </div>
