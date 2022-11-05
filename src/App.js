@@ -1,14 +1,19 @@
 import Content from "./components/content";
 import Footer from "./components/footer";
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import ContactMe from "./Pages/Contact Me";
 
 
 
 function App() {
   return (
-    <div className="App">
-     <Content/>
-     <Footer/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={ <Content/>}/>
+        <Route path='/contact' element={ <ContactMe/>}/>
+      </Routes>
+      <Footer/>
+    </Router>
   );
 }
 
