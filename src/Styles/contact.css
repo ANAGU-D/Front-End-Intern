@@ -117,5 +117,11 @@ body{
 @media screen and (max-width:460px) {
     .wrapper{margin: 25px auto 0;}
     .content p{font-size:18px; margin-top: 5%; margin-bottom: 20%;}
-
+    .top-form{
+        display: flex;
+        flex-direction: column;
+    } 
+    .top-form .inner-form{
+        width: 97%;
+    }  
 }
